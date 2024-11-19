@@ -90,3 +90,22 @@ Feel free to submit [Pull Requests and to file Issues](CONTRIBUTING.md).
 ## Licence
 
 Licenced under the [CC0-1.0](LICENSE).
+
+## Development
+The documentation website about the Publiccode standard is built using the Python Sphinx package.
+
+### Prerequisites
+- A version of python3
+
+### Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Local development process
+`spinx-build` can be used to compile all source file to static html files. Run this command to generate the website:
+```
+sphinx-build docs/standard build -c .
+```
+
