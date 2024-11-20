@@ -108,4 +108,3 @@ pip install -r requirements.txt
 ```
 sphinx-build docs/standard build -c .
 ```
-
