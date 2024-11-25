@@ -70,6 +70,24 @@ searching using the frontend or the API.
 
 * [GitHub Search `path:publiccode.yml`](https://github.com/search?q=path%3Apubliccode.yml&type=code)
 
+## Development
+The documentation website about the Publiccode standard is built using the Python Sphinx package.
+
+### Prerequisites
+- A version of python3
+
+### Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Local development process
+`spinx-build` can be used to compile all source file to static html files. Run this command to generate the website:
+```
+sphinx-build docs/standard build -c .
+```
+
 ## Versioning
 
 **Latest release:** [![GitHub release](https://img.shields.io/github/release/publiccodeyml/publiccode.yml.svg?style=plastic)](https://github.com/publiccodeyml/publiccode.yml/releases) [See all versions](https://github.com/publiccodeyml/publiccode.yml/releases)
@@ -90,21 +108,3 @@ Feel free to submit [Pull Requests and to file Issues](CONTRIBUTING.md).
 ## Licence
 
 Licenced under the [CC0-1.0](LICENSE).
-
-## Development
-The documentation website about the Publiccode standard is built using the Python Sphinx package.
-
-### Prerequisites
-- A version of python3
-
-### Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
-### Local development process
-`spinx-build` can be used to compile all source file to static html files. Run this command to generate the website:
-```
-sphinx-build docs/standard build -c .
-```
