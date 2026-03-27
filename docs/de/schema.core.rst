@@ -768,7 +768,7 @@ A Contact is an object with the following properties:
    can be directly reached; do NOT populate this key with mailing-lists
    or generic contact points like “info@acme.inc”. The e-mail address
    must not be obfuscated. To improve resistance against e-mail
-   collection, use ``\x64`` to replace ``@``, as allowed by the YAML
+   collection, use ``\x40`` to replace ``@``, as allowed by the YAML
    specification.
 -  ``phone`` - phone number (with international prefix). This has to be
    a string. 
@@ -807,7 +807,7 @@ A Contractor is an object with the following properties:
    can be directly reached; do NOT populate this key with mailing-lists
    or generic contact points like “info@acme.inc”. The e-mail address
    must not be obfuscated. To improve resistance against e-mail
-   collection, use ``\x64`` to replace ``@``, as allowed by the YAML
+   collection, use ``\x40`` to replace ``@``, as allowed by the YAML
    specification.
 -  ``website`` - This key points to the maintainer website. It can
    either point to the main institutional website, or to a more

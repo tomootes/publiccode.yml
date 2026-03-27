@@ -813,7 +813,7 @@ Un Contatto è un oggetto con le seguenti proprietà:
    il tecnico; NON popolare questa chiave con mailing-list o punti di
    contatto generico tipo “info@acme.inc”. Questo indirizzo email non
    deve essere offuscato. Per migliorare la resistenza contro la
-   raccolta di indirizzi email, usare ``\x64`` per sostituire ``@``,
+   raccolta di indirizzi email, usare ``\x40`` per sostituire ``@``,
    siccome questo è permesso dalle specifiche YAML.
 -  ``phone`` - Numero telefonico (con prefisso internazionale). Questa chiave
    deve essere una stringa.
@@ -853,7 +853,7 @@ Un Contractor è un oggetto con le seguenti proprietà:
    il tecnico; NON popolare questa chiave con mailing-list o punti di
    contatto generico tipo “info@acme.inc”. Questo indirizzo email non
    deve essere offuscato. Per migliorare la resistenza contro la
-   raccolta di indirizzi email, usare ``\x64`` per sostituire ``@``,
+   raccolta di indirizzi email, usare ``\x40`` per sostituire ``@``,
    siccome questo è permesso dalle specifiche YAML.
 -  ``website`` - Questa chiave punta al sito del maintainer. Può puntare
    al principale sito istituzionale, o ad una pagina o sito più
